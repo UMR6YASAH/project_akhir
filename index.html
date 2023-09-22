@@ -4,62 +4,122 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="JS/script.js">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">about</a></li>
-            <li><a href="#">experiences</a></li>
-            <li><a href="#">education</a></li>
-            <li><a href="#">skills</a></li>
-            <li><a href="#">interests</a></li>
-            <li><a href="#">award</a></li>
-        </ul>
-    </nav>
-
-    <section class="konte1">
-        <div>
-            <let class="anima"><img src="IMAGE/jasumr.jpg" alt="" /></let>
-            <h1> about me</h1>
-            <p>namaku umar akbar imyansah panggilan umar saya sarjana ilmu computer Saya adalah seseorang yang mampu
-                berkomunikasi dengan baik, jujur, disiplin, dan bertanggungjawab.Perna mengikuti organasasi saat di
-                kuliah skill saya memahami perawatan dan perbaikan komputer serta front end developer web menggunakan
-                html,css dan javascript.</p>
+    <div class="wrap">
+        <div class="ribbon">
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+     </div>
+        <div class="nav">
+              <a href="#konte1">About</a>
+            <a href="#konte2">Experiences</a>
+            <a href="#konte3">Education</a>
+            <a href="#konte4">Skill</a>
+            <a href="#konte5">interests</a>
+            <a href="#konte6">Award</a>
+            </div>
         </div>
-============================================================================
+
+    <section id="konte1">
+        <div class="konte1-bg">
+            <img src="IMAGE/bg-konte.jpg" alt="">
+            <div class="konte1-isi">
+                <img src="IMAGE/jasumr.jpg" alt="image" />
+                <h1> about me</h1>
+                <p>namaku umar akbar imyansah panggilan umar saya sarjana ilmu computer Saya adalah seseorang yang mampu
+                    berkomunikasi dengan baik, jujur, disiplin, dan bertanggungjawab.Perna <br>smengikuti organasasi
+                    saat di
+                    kuliah skill saya memahami perawatan dan perbaikan komputer serta front end developer web
+                    menggunakan
+                    html,css dan javascript.</p>
+            </div>
+        </div>
     </section>
 
-    <section class="konte2">
-        <div>
-            <h2>experiences</h2>
-            
+    <section id="konte2">
+        <h2>Experiences</h2>
+        <div class="konte2-isi">
+            <div class="konte2-isi1">
+                <summary class="konte2-d1"> Merdeka Belajar Kampus Mengajar [MBKM]<br>
+                    SMP Negeri 40 Pekanbaru</summary>
+                <details>
+                    <sup>agustus-desember 2022</sup>
+                    <p> menjadi ketua kelompok,membantu mengajar
+                        siswa di bidang ilmu komputer,<br>membuat
+                        laporan harian,mingguan,bulanan dan
+                        merancang program kerja</p>
+                </details><br>
+            </div>
+            <div class="konte2-d2">
+                <summary> ketua himpunan mahasiwa sistem informasi</summary>
+                <details>
+                    <sup>2020-2021</sup>
+                    <p> menjaga rasa persatuan dan solidaritas, menentukan kebijakan umum organisasi,melakukan evaluasi
+                        kegiatandan bertanggung jawab terhadap pelaksanaan kegiatan organisasi,berkoordinasi kepada
+                        seluruh pengurus organisasi dalam menjalankan program kerja yang ada</p>
+                </details>
+            </div>
         </div>
-============================================================================
     </section>
 
-    <section class="konte3">
-        <div>
-            <h2>education</h2>
-            <h3>universitas muhammadiyah riau</h3> <sup>2018-2022</sup>
-        </div>
-        <div>
+
+    <section id="konte3">
+        <div class="konte3-d1">
+            <h2>Education</h2>
+            <h3>universitas muhammadiyah riau</h3> <sup>2018-2022</sup><br>
             <h3>smk negeri 4 pekanbaru</h3> <sup>2016-2018</sup>
         </div>
-============================================================================
     </section>
 
-    <section class="konte4">
-
+    <section id="konte4">
+        <div class="skill-isi">
+            <form class="konte4-list">
+                <ol ><strong>Skill</strong></ol>
+                <li>problem solving komputer</li>
+                <li>leadership</li>
+                <li>work team</li>
+                <li>comunication</li>
+            </form>
+        </div>
 
     </section>
-    <section class="konte5">
+    <section id="konte5">
+        <h2>interests</h2>
+        <p> awalnya minat saya ingin menjadi teknisi IT namun prospek karir lebih menjanjikan sebagai software developer
+            jadisaat ini saya sedang belajar dan mengasah ilmu menjadi seorang programer</p>
 
     </section>
-    <section class="konte6">
-
+    <section id="konte6">
+        <div class="clock" onload="showTime()">
+        <script src="JS/script.js"></script>
+        <h2>Award</h2>
+        <p>juara 3 kumite Karate perguruan se-inkai riau <sup>2017</sup></p> 
+        </div>
+        
+        
     </section>
+
+    <footer id="konte7">
+       
+            <img src="IMAGE/programmer-3.gif" alt="">
+            <div class="konte7-d1">
+            <h1>Terhubung</h3>
+            <a href="https://github.com/UMR6YASAH/project_akhir.git"> github</a><br>
+            <a href="https://www.instagram.com/umar.yasah6/">instagram</a><br>
+            <a href="https://www.linkedin.com/in/umar-akbar-imyansah-b74533243/">linked in</a><br>
+            <p> Whatshapp 082289403824</p>
+        </div>
+
+        
+
+    </footer>
 
 </body>
 
 </html>
+
